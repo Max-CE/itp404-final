@@ -1,0 +1,295 @@
+{
+  "users": [
+    {
+      "user_ID": 1,
+      "username": "funnyguy123",
+      "user_password": "qwertyuiop",
+      "user_email": "funnyguy@gmail.com",
+      "user_full_name": "Jonathan Doe",
+      "user_phone_number": "+1 123-456-7890",
+      "security_level": 0,
+      "id": "1"
+    },
+    {
+      "user_ID": 2,
+      "username": "storeowner_1",
+      "user_password": "business_business_haha",
+      "user_email": "idobusiness@hotmail.com",
+      "user_full_name": "Jonathan Doe",
+      "user_phone_number": "+1 222-222-3456",
+      "security_level": 1,
+      "id": "2"
+    }
+  ],
+  "categories": [
+    {
+      "category_ID": 1,
+      "category": "Coffee Shop",
+      "id": "1"
+    },
+    {
+      "category_ID": 2,
+      "category": "Bookstore",
+      "id": "2"
+    },
+    {
+      "category_ID": 3,
+      "category": "Library",
+      "id": "3"
+    },
+    {
+      "category_ID": 4,
+      "category": "Mall",
+      "id": "4"
+    },
+    {
+      "category_ID": 5,
+      "category": "Park",
+      "id": "5"
+    },
+    {
+      "category_ID": 6,
+      "category": "Museum",
+      "id": "6"
+    }
+  ],
+  "places": [
+    {
+      "place_ID": 1,
+      "place_name": "The Last Bookstore",
+      "place_description": "Airy book & record store offering new & used items in a multilevel space adorned with local art.",
+      "place_email": null,
+      "place_phone_number": "+1 213-488-0599",
+      "place_website": "http://www.lastbookstorela.com/",
+      "place_address": "453 S Spring St, Los Angeles, CA 90013",
+      "place_city": "Los Angeles",
+      "category_ID": 2,
+      "region_ID": 1,
+      "latitude": 34.0477,
+      "longitude": -118.2494,
+      "atmosphere": "Artistic",
+      "requires_payment": null,
+      "id": "1"
+    },
+    {
+      "place_ID": 2,
+      "place_name": "Bohemian House of Espresso",
+      "place_description": "Offering artisan chai, quality coffee, healthy breakfast and lunch, and a genuine workspace.",
+      "place_email": null,
+      "place_phone_number": "+1 213-628-3086",
+      "place_website": null,
+      "place_instagram": "https://www.instagram.com/bohemianchai",
+      "place_address": "109 W 6th St, Los Angeles, CA 90013",
+      "place_city": "Los Angeles",
+      "category_ID": 1,
+      "region_ID": 1,
+      "latitude": 34.0465,
+      "longitude": -118.2501,
+      "atmosphere": "Casual",
+      "requires_payment": null,
+      "id": "2"
+    },
+    {
+      "place_ID": 3,
+      "place_name": "Alchemist Coffee Project",
+      "place_description": "Sleek coffee-focused spot also offering baked goods & bulk beans out of a New Orleans-style cafe.",
+      "place_email": null,
+      "place_phone_number": "+1 213-388-8767",
+      "place_website": "https://alchemistcp.com/",
+      "place_instagram": "https://www.instagram.com/alchemistcoffeeproject/?hl=en",
+      "place_address": "698 S Vermont Ave, Los Angeles, CA 90005",
+      "place_city": "Los Angeles",
+      "category_ID": 1,
+      "region_ID": 6,
+      "latitude": 34.0602,
+      "longitude": -118.2913,
+      "atmosphere": "Artistic",
+      "requires_payment": null,
+      "id": "3"
+    },
+    {
+      "place_ID": 4,
+      "place_name": "Griffith Park",
+      "place_description": "Urban oasis featuring hiking & equestrian trails, plus city views, the Greek Theatre & the L.A. Zoo.",
+      "place_email": null,
+      "place_phone_number": "+1 323-644-2050",
+      "place_website": "https://www.laparks.org/griffithpark/",
+      "place_address": "2800 E Observatory Rd, Los Angeles, CA 90027",
+      "place_city": "Los Angeles",
+      "category_ID": 5,
+      "region_ID": 7,
+      "latitude": 34.1183,
+      "longitude": -118.3004,
+      "atmosphere": "Nature",
+      "requires_payment": null,
+      "id": "4"
+    },
+    {
+      "place_ID": 5,
+      "place_name": "Stories Books & Cafe",
+      "place_description": "Quaint store offering new & used books plus coffee & food, with an outdoor patio for special events.",
+      "place_email": null,
+      "place_phone_number": "+1 213-413-3733",
+      "place_website": "https://storiesla.com/",
+      "place_instagram": "https://www.instagram.com/storiesbooksandcafe/?hl=en",
+      "place_address": "1716 Sunset Blvd, Los Angeles, CA 90026",
+      "place_city": "Los Angeles",
+      "category_ID": 2,
+      "region_ID": 8,
+      "latitude": 34.0772,
+      "longitude": -118.2591,
+      "atmosphere": "Casual",
+      "requires_payment": null,
+      "id": "5"
+    },
+    {
+      "place_ID": 6,
+      "place_name": "USC Hahn Plaza",
+      "place_description": "A great University with a variety of green spaces!",
+      "place_email": null,
+      "place_phone_number": "+1 213-740-2311",
+      "place_website": "https://www.usc.edu/",
+      "place_instagram": "https://www.instagram.com/uscedu/",
+      "place_address": "801-899 Childs Way, Los Angeles, CA 90089",
+      "place_city": "Los Angeles",
+      "category_ID": 5,
+      "region_ID": 5,
+      "latitude": 34.02067420061237,
+      "longitude": -118.28606976577636,
+      "atmosphere": "Academic",
+      "requires_payment": null,
+      "id": "6"
+    },
+    {
+      "place_ID": 7,
+      "place_name": "Natural History Museum",
+      "place_description": "From T. rex skeletons to an insect zoo, popular attraction holds more than 35-million artifacts.",
+      "place_email": "info@nhm.org",
+      "place_phone_number": "+1 213-763-3466",
+      "place_website": "https://nhm.org/",
+      "place_instagram": "https://www.instagram.com/nhmla/?hl=en",
+      "place_address": "900 Exposition Blvd, Los Angeles, CA 90007",
+      "place_city": "Los Angeles",
+      "category_ID": 6,
+      "region_ID": 5,
+      "latitude": 34.0178,
+      "longitude": -118.2906,
+      "atmosphere": "Academic",
+      "requires_payment": true,
+      "id": "7"
+    },
+    {
+      "id": 8,
+      "place_ID": 8,
+      "place_name": "FIGat7th",
+      "place_description": "Mall with big-box & smaller retail shops, eateries, kids' crafts, a Thursday farmer's market & more.",
+      "place_email": "laura.montross@brookfieldproperties.com",
+      "place_phone_number": "+1 (213) 955-7170",
+      "place_website": "https://www.figat7th.com/",
+      "place_instagram": "https://www.instagram.com/figat7th/?hl=en",
+      "place_address": "735 S Figueroa St, Los Angeles, CA 90017",
+      "place_city": "Los Angeles",
+      "category_ID": 4,
+      "region_ID": 1,
+      "latitude": 34.0491,
+      "longitude": -118.2613,
+      "atmosphere": "Casual",
+      "requires_payment": false
+    }
+  ],
+  "events": [
+    {
+      "event_ID": 1,
+      "event_name": "Book Club",
+      "event_description": "Join us for a discussion of the latest book club pick!",
+      "event_date": "2024-12-17",
+      "event_time": "18:00",
+      "place_ID": 1,
+      "id": "1"
+    },
+    {
+      "event_ID": 2,
+      "event_name": "Chai It Up!",
+      "event_description": "Drinking Chai and having a great old time!",
+      "event_date": "2024-12-23",
+      "event_time": "12:00",
+      "place_ID": 2,
+      "id": "2"
+    },
+    {
+      "event_ID": 3,
+      "event_name": "Finals Week Concludes!",
+      "event_description": "No more Finals!",
+      "event_date": "2024-12-18",
+      "event_time": "12:00",
+      "place_ID": 6,
+      "id": "3"
+    },
+    {
+      "event_ID": 4,
+      "event_name": "A Celebration of Science!",
+      "event_description": "Look at bones! YIPPEE!",
+      "event_date": "2024-12-29",
+      "event_time": "14:00",
+      "place_ID": 7,
+      "id": "4"
+    }
+  ],
+  "regions": [
+    {
+      "region_ID": 1,
+      "region": "DTLA",
+      "city_ID": 1,
+      "id": "1"
+    },
+    {
+      "region_ID": 2,
+      "region": "Century City",
+      "city_ID": 1,
+      "id": "2"
+    },
+    {
+      "region_ID": 3,
+      "region": "Santa Monica",
+      "city_ID": 1,
+      "id": "3"
+    },
+    {
+      "region_ID": 4,
+      "region": "Hollywood",
+      "city_ID": 1,
+      "id": "4"
+    },
+    {
+      "region_ID": 5,
+      "region": "South LA / USC",
+      "city_ID": 1,
+      "id": "5"
+    },
+    {
+      "region_ID": 6,
+      "region": "Koreatown",
+      "city_ID": 1,
+      "id": "6"
+    },
+    {
+      "region_ID": 7,
+      "region": "Unspecified",
+      "city_ID": 1,
+      "id": "7"
+    },
+    {
+      "region_ID": 8,
+      "region": "Echo Park",
+      "city_ID": 1,
+      "id": "8"
+    }
+  ],
+  "cities": [
+    {
+      "city_ID": 1,
+      "city": "Los Angeles",
+      "id": "1"
+    }
+  ]
+}

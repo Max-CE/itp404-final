@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "user_ID": 1,
+      "username": "thirdspacelover",
+      "user_password": "password123",
+      "user_email": "lover@thirdspace.com",
+      "user_full_name": "Alex Johnson",
+      "user_phone_number": "+1 555-123-4567",
+      "security_level": 0
+    },
+    {
+      "user_ID": 2,
+      "username": "caffeineaddict",
+      "user_password": "coffee4life",
+      "user_email": "coffee@addict.com",
+      "user_full_name": "Sam Smith",
+      "user_phone_number": "+1 555-987-6543",
+      "security_level": 1
+    }
+  ],
+  "categories": [
+    {
+      "category_ID": 1,
+      "category": "Cafe"
+    },
+    {
+      "category_ID": 2,
+      "category": "Library"
+    },
+    {
+      "category_ID": 3,
+      "category": "Co-working Space"
+    },
+    {
+      "category_ID": 4,
+      "category": "Park"
+    }
+  ],
+  "places": [
+    {
+      "place_ID": 1,
+      "place_name": "Cozy Corner Cafe",
+      "place_description": "A warm and inviting cafe perfect for working or catching up with friends.",
+      "place_email": "info@cozycorner.com",
+      "place_phone_number": "+1 555-234-5678",
+      "place_website": "https://www.cozycornercafe.com",
+      "place_address": "123 Main St, Los Angeles, CA 90001",
+      "place_city": "Los Angeles",
+      "category_ID": 1,
+      "region_ID": 1
+    },
+    {
+      "place_ID": 2,
+      "place_name": "Central Library",
+      "place_description": "A spacious library with quiet study areas and free Wi-Fi.",
+      "place_email": "info@centrallibrary.com",
+      "place_phone_number": "+1 555-876-5432",
+      "place_website": "https://www.centrallibrary.com",
+      "place_address": "456 Book Lane, Los Angeles, CA 90002",
+      "place_city": "Los Angeles",
+      "category_ID": 2,
+      "region_ID": 2
+    },
+    {
+      "place_ID": 3,
+      "place_name": "The Hive Co-working",
+      "place_description": "Modern co-working space with high-speed internet and meeting rooms.",
+      "place_email": "hello@thehive.com",
+      "place_phone_number": "+1 555-345-6789",
+      "place_website": "https://www.thehivecoworking.com",
+      "place_address": "789 Tech Blvd, Los Angeles, CA 90003",
+      "place_city": "Los Angeles",
+      "category_ID": 3,
+      "region_ID": 3
+    },
+    {
+      "place_ID": 4,
+      "place_name": "Sunset Park",
+      "place_description": "A beautiful park with walking trails and picnic areas.",
+      "place_email": "info@sunsetpark.com",
+      "place_phone_number": "+1 555-987-1234",
+      "place_website": "https://www.sunsetpark.com",
+      "place_address": "101 Park Ave, Los Angeles, CA 90004",
+      "place_city": "Los Angeles",
+      "category_ID": 4,
+      "region_ID": 4
+    }
+  ],
+  "events": [
+    {
+      "event_ID": 1,
+      "event_name": "Coffee Tasting Workshop",
+      "event_description": "Learn about different coffee beans and brewing methods.",
+      "event_date": "2024-07-15",
+      "event_time": "14:00:00",
+      "place_ID": 1
+    },
+    {
+      "event_ID": 2,
+      "event_name": "Book Club Meeting",
+      "event_description": "Monthly book club discussion on the latest bestseller.",
+      "event_date": "2024-07-20",
+      "event_time": "18:30:00",
+      "place_ID": 2
+    },
+    {
+      "event_ID": 3,
+      "event_name": "Networking Mixer",
+      "event_description": "Meet and mingle with local professionals and entrepreneurs.",
+      "event_date": "2024-07-25",
+      "event_time": "19:00:00",
+      "place_ID": 3
+    },
+    {
+      "event_ID": 4,
+      "event_name": "Yoga in the Park",
+      "event_description": "Join us for a relaxing outdoor yoga session.",
+      "event_date": "2024-07-30",
+      "event_time": "09:00:00",
+      "place_ID": 4
+    }
+  ],
+  "regions": [
+    {
+      "region_ID": 1,
+      "region": "Downtown",
+      "city_ID": 1
+    },
+    {
+      "region_ID": 2,
+      "region": "Westside",
+      "city_ID": 1
+    },
+    {
+      "region_ID": 3,
+      "region": "Hollywood",
+      "city_ID": 1
+    },
+    {
+      "region_ID": 4,
+      "region": "Silver Lake",
+      "city_ID": 1
+    }
+  ],
+  "cities": [
+    {
+      "city_ID": 1,
+      "city": "Los Angeles"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "placeId": 1,
+      "dateAdded": "2024-07-01T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "placeId": 3,
+      "dateAdded": "2024-07-02T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "placeId": 2,
+      "dateAdded": "2024-07-03T09:15:00Z"
+    }
+  ]
+}
+
