@@ -7,7 +7,7 @@ const Favorites = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    document.title = 'Third Space Finder - Your Favorites';
+    document.title = 'Third Place Finder - Your Favorites';
     fetchData();
     const storedFavorites = localStorage.getItem('favorites');
     if (storedFavorites) setFavorites(JSON.parse(storedFavorites));

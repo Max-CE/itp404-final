@@ -17,7 +17,7 @@ const Home = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-    document.title = 'Third Space Finder - Home Page';
+    document.title = 'Third Place Finder - Home Page';
     fetchPlaces();
   }, []);
 
@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div className="text-center">
       <div className="bg-white text-gray-800 py-12 px-4 rounded-lg shadow-sm mb-8 border border-gray-200">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Third Space Finder</h1>
+        <h1 className="text-4xl font-bold mb-4">Welcome to Third Place Finder</h1>
         <p className="text-xl mb-6 text-gray-600">Discover great places to hang out, work, and socialize in your area.</p>
         <Link to="/places" className="bg-emerald-600 text-white font-bold py-2 px-6 rounded-full hover:bg-emerald-700 transition-colors duration-300 inline-flex items-center">
           <Search className="w-5 h-5 mr-2" />

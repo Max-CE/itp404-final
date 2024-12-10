@@ -32,7 +32,7 @@ const PlaceDetails = () => {
 
         if (foundPlace) {
           setPlace(foundPlace);
-          document.title = `Third Space Finder - ${foundPlace.place_name}`;
+          document.title = `Third Place Finder - ${foundPlace.place_name}`;
       
           const foundCategory = categoriesData.find(cat => cat.category_ID === foundPlace.category_ID);
           setCategory(foundCategory);

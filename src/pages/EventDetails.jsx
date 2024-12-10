@@ -37,7 +37,7 @@ const EventDetails = () => {
         }
         setEvent(foundEvent);
 
-        document.title = `Third Space Finder - ${foundPlace.place_name} - ${foundEvent.event_name}`;
+        document.title = `Third Place Finder - ${foundPlace.place_name} - ${foundEvent.event_name}`;
       } catch (error) {
         console.error('Error fetching event or place:', error);
         toast.error('Failed to fetch event details');

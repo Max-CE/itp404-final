@@ -10,7 +10,7 @@ export default function Places() {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-    document.title = 'Third Space Finder - Explore Places Page';
+    document.title = 'Third Place Finder - Explore Places Page';
     fetchPlacesAndCategories();
     const storedFavorites = localStorage.getItem('favorites');
     if (storedFavorites) setFavorites(JSON.parse(storedFavorites));

@@ -32,7 +32,7 @@ const AddPlace = () => {
   }, []);
 
   useEffect(() => {
-    document.title = 'Third Space Finder - New Place Form';
+    document.title = 'Third Place Finder - New Place Form';
   }, []);
 
   const fetchData = async () => {
